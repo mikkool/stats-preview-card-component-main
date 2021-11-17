@@ -9,7 +9,7 @@ main {
 }
 
 .box {
-  width: 100%;
+  
 }
 
 .insights-box {
@@ -17,11 +17,34 @@ main {
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   justify-content: center;
+  width: 100%;
+  gap: 30px;
+}
+
+.insights-box-grid {
+  background-color: var(--card-background);
 }
 
 .box-image {
   background-image: url("../img/image-header-desktop.jpg");
   background-repeat: no-repeat;
-
+  background-size: contain;
   width: 100px;
+}
+
+h1 {
+  color: var(--stats)
+}
+
+.para-text {
+  color: var(--main-paragraph)
+}
+
+.stats h2 {
+  color: var(--stats);
+}
+
+.info {
+  color: var(--main-paragraph);
+  text-transform: uppercase;
 }
