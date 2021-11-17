@@ -1,0 +1,27 @@
+@import url("variables.css");
+@import url("global.css");
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.box {
+  width: 100%;
+}
+
+.insights-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+}
+
+.box-image {
+  background-image: url("../img/image-header-desktop.jpg");
+  background-repeat: no-repeat;
+
+  width: 100px;
+}
