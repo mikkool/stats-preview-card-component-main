@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://cocky-brattain-09eafa.netlify.app/]
-- Live Site URL: [https://cocky-brattain-09eafa.netlify.app/]
+- Solution URL: [https://quirky-bohr-98e5d4.netlify.app/]
+- Live Site URL: [https://quirky-bohr-98e5d4.netlify.app/]
 
 ## My process
 
