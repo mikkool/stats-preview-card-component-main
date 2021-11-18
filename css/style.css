@@ -5,7 +5,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
   max-width: 1110px;
   margin: auto;
 }
@@ -18,7 +18,6 @@ main {
   width: 100%;
   height: 100%;
   border: 1px solid red;
-  gap: 3rem;
 }
 
 .insights-box-grid {
@@ -81,14 +80,19 @@ h1 span {
     grid-template-rows: 1fr;
   }
 
+  .insights-box>.box-image {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
   .box-image {
     background-image: url("../img/image-header-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     opacity: .8;
     background-blend-mode: soft-light;
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    min-height: 240px;
     background-color: var(--accent);
   }
 }
